@@ -1,5 +1,6 @@
 /// <reference types="cypress" />
 
+
 describe('Searchbox Test', function () {
     before(() => {
         cy.visit('http://zero.webappsecurity.com/index.html')

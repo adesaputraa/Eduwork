@@ -1,5 +1,6 @@
 /// <reference types="cypress" />
 
+
 describe('Navbar test', () => {
     before(() => {
         cy.visit('http://zero.webappsecurity.com/index.html')
