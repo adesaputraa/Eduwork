@@ -13,6 +13,16 @@ it('Success validasi Assertion body', () => {
         expect(Response.body.abilities[0].ability.name).equal("limber")
         expect(Response.body.abilities[0].ability.url).equal( "https://pokeapi.co/api/v2/ability/7/")
     })
+
+    // it("Get Respone Body", () => {
+    //     var poke ={
+    //         "name": "limber"
+    //     }
+    //     cy.request('GET','https://pokeapi.co/api/v2/pokemon/ditto',poke).then((response)=>{
+    //         expect(response.status).equal(200)
+    //         expect(response.body.abilities[0].ability.name).to.eq(poke.name)
+    //     })
+    // });
     
 });
 });
